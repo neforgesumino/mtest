@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+  font-family: "Raleway", sans-serif, sans;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background: linear-gradient(-45deg, #483D8B, #6F3D8B);
+*/
+  background: #46D1A3;
+}
+
+#m, #m th, #m td {
+  padding: 0.8rem;
+  /*border-collapse: collapse; */
+  border-radius: 5px;
+}
+#m {
+  margin: 0px auto;
+  background: teal;
+}
+
+#m tr:nth-child(1n) {
+  opacity: 0;
+}
+
+/* To center just the first column */
+#m tr td:first-child {
+  text-align: center;
+}
+
+#m tr:nth-child(2n) {
+  background: #bbb;
+}
+#m tr:nth-child(2n - 1) {
+  background: #fff;
+}
+/*#m tr:first-child th:first-child {
+  border-top-left-radius: 15px;
+}*/
+#rerun {
+  width: 100px;
+  height: 50px;
+  font-size: 1.2em;
+}
